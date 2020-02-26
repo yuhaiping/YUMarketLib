@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YUMarketLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YUMarketLib.'
+  s.summary          = '一个商城库，目前是测试库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+测试制作pod公有库，只是做测试用的，没其他功能
                        DESC
 
   s.homepage         = 'https://github.com/yuhaiping/YUMarketLib'
@@ -28,8 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/yuhaiping/YUMarketLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.platform = :ios, '9.0'
+  s.swift_version = '4.0'
   s.source_files = 'YUMarketLib/Classes/**/*'
   
   # s.resource_bundles = {
